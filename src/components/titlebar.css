@@ -1,0 +1,15 @@
+.title-bar {
+    border-bottom: 2px solid white;
+    text-align: left;
+    font-size: x-large;
+}
+
+.title-bar-links {
+    border-bottom: 2px dotted darkslategray; 
+       
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
