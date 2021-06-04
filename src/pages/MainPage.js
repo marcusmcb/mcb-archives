@@ -8,6 +8,7 @@ const MainPage = () => {
     return (
         <div>
             <Titlebar/>
+            MAIN PAGE CONTENT
         </div>
     )
 }

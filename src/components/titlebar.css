@@ -7,11 +7,25 @@
 
 .title-bar {
   font-size: xx-large;
-  padding-top: 2%;
+  padding-top: 2%;  
+  width: 100%;  
+}
+
+.mcb-logo {
+  padding-top: 1%; 
+  border-radius: 50%; 
+  padding-right: 2%;
+}
+
+.title-bar-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .title-bar-caption {  
   padding-bottom: 2%;
+  color: yellow;
+  font-size: large;
 }
 
 .title-bar-links {

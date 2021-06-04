@@ -2,11 +2,12 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/box'
 import Grid from '@material-ui/core/Grid'
+import { NavLink } from 'react-router-dom'
 
+import Logo from '../images/mcb-logo-black.jpg'
 import './titlebar.css'
 
 const Titlebar = () => {
-    
   const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -23,34 +24,35 @@ const Titlebar = () => {
   return (
     <div className={classes.root}>
       <Grid>
+        <div className='title-bar-row'>
+          <div className='title-bar'>
+            <Grid item xs={12}>
+              <Box bgcolor='text.secondary' className='title-bar'>
+                MCB Archives
+              </Box>
+            </Grid>
+            <Grid item xs={12}>
+              <Box bgcolor='text.secondary' className='title-bar-caption'>
+                edits, mixshows and more
+              </Box>
+            </Grid>
+          </div>
+          <img src={Logo} alt='MCB Logo' className='mcb-logo' height='100px' />
+        </div>
         <Grid item xs={12}>
-          <Box
-            bgcolor='text.secondary'            
-            className='title-bar'                        
-          >
-            MCB Archives
-          </Box>
-        </Grid>
-        <Grid item xs={12}>
-          <Box
-            bgcolor='text.secondary'            
-            className='title-bar-caption'
-                        
-          >
-            MCB Archives
-          </Box>
-        </Grid>
-        <Grid item xs={12}>
-          <Box
-            bgcolor='text.secondary'            
-            className='title-bar-links'            
-          >
+          <Box bgcolor='text.secondary' className='title-bar-links'>
             <span className='links'>
-              <p>edits</p>
+              <NavLink to='/edits'>
+                <p>edits</p>
+              </NavLink>
               <p> | </p>
-              <p>mixshows</p>
+              <NavLink to='/mixshows'>
+                <p>mixshows</p>
+              </NavLink>
               <p> | </p>
-              <p> other </p>
+              <NavLink to='/other'>
+                <p>other</p>
+              </NavLink>
             </span>
           </Box>
         </Grid>
