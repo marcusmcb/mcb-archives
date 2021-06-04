@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid'
 import './titlebar.css'
 
 const Titlebar = () => {
+    
   const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -24,20 +25,25 @@ const Titlebar = () => {
       <Grid>
         <Grid item xs={12}>
           <Box
-            bgcolor='text.secondary'
-            color='background.paper'
-            className='title-bar'
-            p={2}
+            bgcolor='text.secondary'            
+            className='title-bar'                        
           >
             MCB Archives
           </Box>
         </Grid>
         <Grid item xs={12}>
           <Box
-            bgcolor='text.secondary'
-            color='background.paper'
-            className='title-bar-links'
-            p={2}               
+            bgcolor='text.secondary'            
+            className='title-bar-caption'
+                        
+          >
+            MCB Archives
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
+          <Box
+            bgcolor='text.secondary'            
+            className='title-bar-links'            
           >
             <span className='links'>
               <p>edits</p>

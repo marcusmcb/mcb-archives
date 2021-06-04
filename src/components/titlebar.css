@@ -1,15 +1,27 @@
+.title-bar,
+.title-bar-caption {
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+  padding-left: 2%;
+}
+
 .title-bar {
-    border-bottom: 2px solid white;
-    text-align: left;
-    font-size: x-large;
+  font-size: xx-large;
+  padding-top: 2%;
+}
+
+.title-bar-caption {  
+  padding-bottom: 2%;
 }
 
 .title-bar-links {
-    border-bottom: 2px dotted darkslategray; 
-       
+  border-bottom: 2px dotted white;
+  border-top: 2px solid white;
+  margin-left: 2%;
+  margin-right: 2%
 }
 
 .links {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
