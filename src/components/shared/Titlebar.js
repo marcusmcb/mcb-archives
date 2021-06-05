@@ -22,7 +22,7 @@ const Titlebar = () => {
   const classes = useStyles()
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id='title-bar-scroll'>
       <Grid>
         <div className='title-bar-row'>
           <div className='title-bar'>

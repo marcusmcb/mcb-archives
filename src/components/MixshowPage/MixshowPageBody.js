@@ -39,7 +39,7 @@ const MixshowPageBody = () => {
             <iframe
                 width='100%'
                 height='120'
-                title='RadioMixes Old School'
+                title='Twitch DJ Set'
                 src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&feed=%2Fmarcusmcbride%2Flazy-sunday-throwback-mix-twitch-set-041121%2F"
                 frameBorder='0'
               ></iframe>
@@ -51,7 +51,7 @@ const MixshowPageBody = () => {
       <Grid>
         <Grid item xs={12}>
           <Box bgcolor='text.secondary' className='content-title'>
-            NEW FROM RADIOMIXES:
+            NEW FROM RADIOMIXES
           </Box>
         </Grid>
         <Grid item xs={12}>
@@ -71,8 +71,35 @@ const MixshowPageBody = () => {
               ></iframe>
             </div>
           </Box>
-        </Grid>
+        </Grid>        
       </Grid>
+
+      <Grid>
+        <Grid item xs={12}>
+          <Box bgcolor='text.secondary' className='content-title'>
+            RETRO VIBES
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
+          <Box bgcolor='text.secondary' className='content-title-caption'>
+            here's a quick retro pop/throwback set from radiomixes
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
+          <Box bgcolor='text.secondary'>
+            <div className='mixcloud-embed'>
+              <iframe
+                width='100%'
+                height='120'
+                title='RadioMixes Retro'
+                src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&dark=1&feed=%2Fmarcusmcbride%2Fdj-marcus-mcbride-radiomixes-retro-show-sample-october-2018%2F"
+                frameBorder='0'
+              ></iframe>
+            </div>
+          </Box>
+        </Grid>        
+      </Grid>
+
     </div>
   )
 }
