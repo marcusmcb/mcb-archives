@@ -3,8 +3,7 @@
   font-family: 'Bebas Neue', cursive;
   padding-left: 2%;
   font-size: x-large;
-  padding-top: 2%;
-  width: 100%;
+  padding-top: 2%;  
   color: yellow;
 }
 
@@ -18,5 +17,23 @@
 
 .mixcloud-embed {
   margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 2%;  
 }
+
+.mixcloud-embed-standard {
+  display: contents;
+}
+
+.mixcloud-embed-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .mixcloud-embed-standard {
+    display: none;
+  }
+  .mixcloud-embed-mobile {
+    display: contents;
+  }
+}
+

@@ -28,7 +28,7 @@ const Titlebar = () => {
           <div className='title-bar'>
             <Grid item xs={12}>
               <Box bgcolor='text.secondary' className='title-bar'>
-                MCB Archives
+                <NavLink to='/'>MCB Archives</NavLink>
               </Box>
             </Grid>
             <Grid item xs={12}>

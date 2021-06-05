@@ -8,8 +8,11 @@
 .title-bar {
   font-size: xx-large;
   padding-top: 2%;  
-  width: 100%;  
-  color: yellow;  
+  width: 100%;     
+}
+
+.title-bar a {
+  color: yellow;
 }
 
 #title-bar-scroll {
