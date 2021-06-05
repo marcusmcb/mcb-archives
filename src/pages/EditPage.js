@@ -33,7 +33,7 @@ const EditPage = () => {
             a random idea i had during the pandemic. ableton + maschine + ozone. 
             <span id='more-toggle'>(more)</span>
           </Box>
-          <Box bgcolor='text.secondary' className='more-info'>
+          <Box bgcolor='text.secondary' className='more-info fade-in-text'>
             djs are all about transitions and blends. sometimes, you have one
             that gets stuck in your head. 'song x might sound pretty dope over
             song y'... that sort of thing. so here's one i had that decided to
