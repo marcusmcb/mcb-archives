@@ -2,6 +2,8 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
+import { createMuiTheme, ThemeProvider } from '@material-ui/core'
+import AudioPlayer from 'material-ui-audio-player'
 
 import Titlebar from '../components/shared/Titlebar'
 import './editpage.css'
@@ -19,6 +21,8 @@ const EditPage = () => {
 
   const classes = useStyles()
 
+  const muiTheme = createMuiTheme({})
+
   return (
     <div className={classes.root}>
       <Titlebar />
@@ -30,7 +34,7 @@ const EditPage = () => {
         </Grid>
         <Grid item xs={12}>
           <Box bgcolor='text.secondary' className='edit-content-title-caption'>
-            a random idea i had during the pandemic. ableton + maschine + ozone. 
+            a random idea i had during the pandemic. ableton + maschine + ozone.
             <span id='more-toggle'>(more)</span>
           </Box>
           <Box bgcolor='text.secondary' className='more-info fade-in-text'>
@@ -52,6 +56,13 @@ const EditPage = () => {
             ></iframe>
           </div>
         </Grid>
+        {/* <ThemeProvider theme={muiTheme}>
+          <AudioPlayer
+            width='100%'
+            variation='default'
+            src='https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'
+          />
+        </ThemeProvider>         */}
       </Grid>
     </div>
   )

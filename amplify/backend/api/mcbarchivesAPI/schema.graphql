@@ -1,0 +1,8 @@
+type ArchiveItem @model {
+  id: ID!
+  title: String!
+  description: String!
+  moreInfo: String!
+  filePath: String!
+  category: String!  
+}
