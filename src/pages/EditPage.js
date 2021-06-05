@@ -30,8 +30,8 @@ const EditPage = () => {
         </Grid>
         <Grid item xs={12}>
           <Box bgcolor='text.secondary' className='edit-content-title-caption'>
-            <span>a random idea i had during the pandemic. ableton + maschine + ozone.</span>
-            <span className='more-toggle'>(more)</span>
+            a random idea i had during the pandemic. ableton + maschine + ozone. 
+            <span id='more-toggle'>(more)</span>
           </Box>
           <Box bgcolor='text.secondary' className='more-info'>
             djs are all about transitions and blends. sometimes, you have one

@@ -38,6 +38,6 @@
     display:block;
   }
 
-  .more-toggle:hover {
+  #more-toggle:hover {
     color: pink;
   }
