@@ -20,7 +20,6 @@ const EditPage = () => {
   const classes = useStyles()
 
   return (
-
     <div className={classes.root}>
       <Titlebar />
       <Grid>
@@ -48,7 +47,6 @@ const EditPage = () => {
         </Grid>
       </Grid>
     </div>
-    
   )
 }
 
