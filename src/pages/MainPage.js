@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Titlebar from '../components/Titlebar'
+import Titlebar from '../components/shared/Titlebar'
 
 import './mainpage.css'
 

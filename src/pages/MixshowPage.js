@@ -1,13 +1,16 @@
 import React from 'react'
 
+import Titlebar from '../components/shared/Titlebar'
+import MixshowPageBody from '../components/MixshowPage/MixshowPageBody'
 import './mixshowpage.css'
 
-const MixshowPage = () => {
+const MixshowPage = () => {  
     return (
         <div>
-            MIXSHOW PAGE
+            <Titlebar/>
+            <MixshowPageBody/>
         </div>
     )
 }
 
-export default MixshowPage;
+export default MixshowPage
