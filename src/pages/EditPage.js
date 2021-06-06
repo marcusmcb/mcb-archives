@@ -4,6 +4,7 @@ import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 import AudioPlayer from 'material-ui-audio-player'
+import { FacebookShareButton, FacebookIcon } from 'react-share';
 
 import Titlebar from '../components/shared/Titlebar'
 import './editpage.css'
@@ -23,10 +24,12 @@ const EditPage = () => {
 
   const muiTheme = createMuiTheme({})
 
+  let size = "2.5rem"
+
   return (
     <div className={classes.root}>
       <Titlebar />
-      <Grid>
+      <Grid>        
         <Grid item xs={12}>
           <Box bgcolor='text.secondary' className='edit-content-title'>
             LATEST FROM SOUNDCLOUD:
@@ -64,6 +67,11 @@ const EditPage = () => {
           />
         </ThemeProvider>         */}
       </Grid>
+      <div className='share-me'>
+        <FacebookShareButton url={'/'}>
+          <FacebookIcon size={size}/>
+        </FacebookShareButton>
+      </div>
     </div>
   )
 }

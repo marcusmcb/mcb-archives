@@ -63,3 +63,8 @@
     0% {opacity:0;}
     100% {opacity:1;}
   }
+  
+.share-me {
+  display: flex;
+  padding-left: 2%;  
+}

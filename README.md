@@ -11,6 +11,7 @@ Future dev:
 * check ui on smaller vps (and xx/xl too)
 * stream page for third panel? (clubjam, etc)
 * add social/share link panel to each item
+    ^ working, needs url formatting (react-share)
 
 Data mgmt:
 
