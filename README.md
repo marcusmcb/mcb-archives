@@ -17,3 +17,14 @@ Data mgmt:
 
 * added graphql via --> https://www.youtube.com/watch?v=kqi4gPfdVHY
 * will store data for each page item, call/sort by category to relevant query
+
+Data schema (Graph QL/DynamoDB):
+
+ID (id)
+title (string)
+desc (string)
+moreInfo (string)
+filePath (string)
+category (string)
+createdAt (AWSDateTime)
+updatedAt (AWSDateTime)
