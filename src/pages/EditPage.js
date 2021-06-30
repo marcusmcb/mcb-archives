@@ -2,8 +2,8 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
-import { createMuiTheme, ThemeProvider } from '@material-ui/core'
-import AudioPlayer from 'material-ui-audio-player'
+// import { createMuiTheme, ThemeProvider } from '@material-ui/core'
+// import AudioPlayer from 'material-ui-audio-player'
 import { FacebookShareButton, FacebookIcon } from 'react-share';
 
 import Titlebar from '../components/shared/Titlebar'
@@ -22,7 +22,7 @@ const EditPage = () => {
 
   const classes = useStyles()
 
-  const muiTheme = createMuiTheme({})
+  // const muiTheme = createMuiTheme({})
 
   let size = "2.5rem"
 

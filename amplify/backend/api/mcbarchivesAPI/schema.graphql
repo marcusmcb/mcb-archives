@@ -1,4 +1,4 @@
-type ArchiveItem @auth @model(rules: [{ allow: owner}]) {
+type ArchiveItem @model @auth(rules: [{ allow: owner}]) {
   id: ID!
   title: String!
   description: String!
